@@ -1,0 +1,36 @@
+{
+  "name": "es-module-exists",
+  "version": "1.0.0",
+  "description": "Checks if a node module or file exists or not in the repository.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christiyan14/es-module-exist.git"
+  },
+  "keywords": [
+    "module",
+    "ECMAscript",
+    "ES6",
+    "JavaScript",
+    "Modules",
+    "Module",
+    "ES6",
+    "module",
+    "JavaScipt",
+    "Modules",
+    "TypeScript",
+    "ECMAscript",
+    "Modules",
+    "Node",
+    "JS"
+  ],
+  "author": "Christiyan Velkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christiyan14/es-module-exist/issues"
+  },
+  "homepage": "https://github.com/christiyan14/es-module-exist#readme"
+}
