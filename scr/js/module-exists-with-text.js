@@ -5,7 +5,7 @@ import { moduleExists } from "./module-exists.js";
 
 let defaultColors;
 
-export const setModuleExistsColors = (colors) => {
+export const setTextColors = (colors) => {
   defaultColors = {
     success: colors?.sucess || "#008000",
     error: colors?.error || "#DC143C",
@@ -16,9 +16,9 @@ export const setModuleExistsColors = (colors) => {
   return defaultColors;
 };
 
-setModuleExistsColors();
+setTextColors();
 
-export const moduleExistsWithMessage = (
+export const moduleExistsWithText = (
   moduleName,
   options = {
     success: {
@@ -70,6 +70,9 @@ export const moduleExistsWithMessage = (
       );
       spinner.warn(chalkWarn(options.success?.warn?.text || ""));
     }
+
+    spinner.stop();
+    return true;
   } else {
     spinner.fail(chalkError(options.error?.text || "Not installed"));
 
@@ -86,8 +89,10 @@ export const moduleExistsWithMessage = (
       );
       spinner.warn(chalkWarn(options.error?.warn.text || ""));
     }
+
+    spinner.stop();
+    return false;
   }
-  spinner.stop();
 };
 
-export default moduleExistsWithMessage;
+export default moduleExistsWithText;
