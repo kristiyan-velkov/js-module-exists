@@ -1,4 +1,4 @@
-# es6-module-exists
+# js-module-exists
 
 Checks if a node module or file exists or not in the repository.
 
@@ -16,14 +16,14 @@ Checks if a node module or file exists or not in the repository.
 - Via npm:
 
 ```code
-npm install es6-module-exist --save-dev
+npm install js-module-exists --save-dev
 
 ```
 
 - Via yarn:
 
 ```code
-yarn add es6-module-exist -D
+yarn add js-module-exists -D
 
 ```
 
@@ -45,7 +45,7 @@ if (module_exists('./lib/helper.js')) {
 - If you saw some issue/bug 🐛 related to the specific release version.
 - If you want some new feature or change to be added/implemented. 😊
 
-Please, contact the creator of the **es-module-exist**, so he will be able to fix or improve it:
+Please, contact the creator of the **js-module-exists**, so he will be able to fix or improve it:
 
 #####Кristiyan Velkov
 ######Email: kristiyan.velkov@gfk.com

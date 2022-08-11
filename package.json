@@ -1,15 +1,16 @@
 {
-  "name": "es-module-exists",
+  "name": "js-module-exists",
   "version": "1.0.0",
   "description": "Checks if a node module or file exists or not in the repository.",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christiyan14/es-module-exist.git"
+    "url": "git+https://github.com/christiyan14/js-module-exists.git"
   },
+  "type": "module",
   "keywords": [
     "module",
     "ECMAscript",
@@ -27,10 +28,14 @@
     "Node",
     "JS"
   ],
-  "author": "Christiyan Velkov",
+  "author": "Kristiyan Velkov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/christiyan14/es-module-exist/issues"
+    "url": "https://github.com/christiyan14/js-module-exists/issues"
   },
-  "homepage": "https://github.com/christiyan14/es-module-exist#readme"
+  "homepage": "https://github.com/christiyan14/js-module-exists#readme",
+  "devDependencies": {
+    "chalk": "^5.0.1",
+    "ora": "^6.1.2"
+  }
 }
