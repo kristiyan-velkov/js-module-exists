@@ -9,8 +9,8 @@ export const setTextColors = (colors) => {
   defaultColors = {
     success: colors?.sucess || "#008000",
     error: colors?.error || "#DC143C",
-    info: colors?.info || "#00FFFF",
     warn: colors?.warn || "#FFD700",
+    info: colors?.info || "#00FFFF",
   };
 
   return defaultColors;
@@ -24,24 +24,24 @@ export const moduleExistsWithText = (
     success: {
       color: defaultColors.success,
       text: "",
-      info: {
-        color: defaultColors.info,
-        text: "",
-      },
       warn: {
         color: defaultColors.warn,
+        text: "",
+      },
+      info: {
+        color: defaultColors.info,
         text: "",
       },
     },
     error: {
       color: defaultColors.error,
       text: "",
-      info: {
-        color: defaultColors.info,
-        text: "",
-      },
       warn: {
         color: defaultColors.warn,
+        text: "",
+      },
+      info: {
+        color: defaultColors.info,
         text: "",
       },
     },
@@ -57,13 +57,6 @@ export const moduleExistsWithText = (
   if (moduleExists(moduleName)) {
     spinner.succeed(chalkSuccess(options.success?.text || "Installed!"));
 
-    if (options.success?.info?.text) {
-      const chalkInfo = chalk.hex(
-        options.success?.info?.color || defaultColors.info
-      );
-      spinner.info(chalkInfo(options.success?.info?.text || ""));
-    }
-
     if (options.success?.warn?.text) {
       const chalkWarn = chalk.hex(
         options.success?.warn?.color || defaultColors.warn
@@ -71,23 +64,29 @@ export const moduleExistsWithText = (
       spinner.warn(chalkWarn(options.success?.warn?.text || ""));
     }
 
+    if (options.success?.info?.text) {
+      const chalkInfo = chalk.hex(
+        options.success?.info?.color || defaultColors.info
+      );
+      spinner.info(chalkInfo(options.success?.info?.text || ""));
+    }
     spinner.stop();
     return true;
   } else {
     spinner.fail(chalkError(options.error?.text || "Not installed"));
-
-    if (options.error?.info?.text) {
-      const chalkInfo = chalk.hex(
-        options.error?.info.color || defaultColors.info
-      );
-      spinner.info(chalkInfo(options.error?.info.text || ""));
-    }
 
     if (options.error?.warn?.text) {
       const chalkWarn = chalk.hex(
         options.error?.warn.color || defaultColors.warn
       );
       spinner.warn(chalkWarn(options.error?.warn.text || ""));
+    }
+
+    if (options.error?.info?.text) {
+      const chalkInfo = chalk.hex(
+        options.error?.info.color || defaultColors.info
+      );
+      spinner.info(chalkInfo(options.error?.info.text || ""));
     }
 
     spinner.stop();
