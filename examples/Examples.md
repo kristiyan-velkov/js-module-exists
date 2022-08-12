@@ -73,7 +73,7 @@ moduleExistsWithText("some-npm-package-name", {
 
 ```
 
-######All options object properties
+#### All options object properties
 
 **IMPORTANT**
 All of the object properties do not need to be provided only those which you want to modify!!!

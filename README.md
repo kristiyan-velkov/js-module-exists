@@ -123,13 +123,11 @@ Please, contact the creator of the **js-module-exists**, so he will be able to f
 
 If you like my work and want to support me to work hard, please:
 
-Donate via Revolut QR code
 
-<img src="https://lh3.googleusercontent.com/fife/AAbDypABBbPRA0I4h4iuXix8vk4yk5mrKYkhbK3T4HBP-C4lye7eoqeYjzEEV4vrU1uM674iBUErnItuNhdQOdxHxOnfcP5iIwlv4fzlkUL6k5LrSpCehCo2EkBEg25_9OVRdlsSnvqfac_NFyTVaFv4UR4OyblbCqEguJEmdPABHzN_LUN-GctW2rWo6wL9LFg_8n9NndaTmAranTiy0Fzpsm5rU7qTTY1wS-G4JdvqNLETVr2HdizJNj-K-f5B0WqgsloIbgFq98Tc1-5u6FkaFgGI5_DvXDbDrqjMyXqqGG4Yk7A2sVApUWZJbHzjfxErcfWWjrZRebBpmIxdTpL3kUqH7f1_0xDOr8wwgJfmHP9MW-TmHaV0S5fyw-KPBro2Icc-9bMtjfqtHOJ3OFxKf4Ds8TG8050iSiPK7AwqhxyGlyufd6YUNGgTplf91CBoI3FmE9fsKdDJr2HMGz1n2Y7D-TDC7Jd_mTqWmN5RU-EMr76LQzcWnqJ08F4Xyo-XtBqSMZcBORf_Idadpe8QlapaF0FD2852ZFkg-AtmR9VA-dwyT3O6tIcP8comNcfoYLJgxAFAJefiup_ZlQVxUkHl_ULr0-jQxnTNWwQYfs4EaRAvJp-snXJtYurL9inTrb5oGtqnqtx1fydWA-UpyfZVefEE8q3UdXEuEameCxwaJgiRBqeX3wjXKeQnjyESB0KMFIMxJIy093oNqvaI9o6R2v20DfmAxGRUpnPQ49HR9nI3HGuNX5Z1OgEMTAqIES2Uj-XG9IBy9wYk=w1920-h912" width="200px" alt="Krisityan Velkvo - Revolute"/>
 
-or
+<a href="https://www.buymeacoffee.com/kristiyanvelkov" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee"  width="200px"></a>
 
-<a href="https://www.buymeacoffee.com/kristiyanvelkov" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://revolut.me/kristiyanvelkov" target="_blank"><img src="readme-images/kristiyan.velkov-revolut.png" width="200px" alt="Krisityan Velkov - Revolute"/></a>
 
 Thanks a bunch for supporting me! It means a LOT 😍
 
