@@ -94,7 +94,7 @@ moduleExistsWithText("some-npm-package-name", {
 });
 ```
 
-![JS-MODULE_EXISTS](readme-images/3.png)
+![JS-MODULE_EXISTS](readme-images/2.png)
 
 ## Examples:
 
@@ -123,14 +123,12 @@ Please, contact the creator of the **js-module-exists**, so he will be able to f
 
 If you like my work, please :
 
-- ⭐ this repository to motivate me to work stronger on new features.
-- Donate me a coffe ☕️:
+1. Donate me a coffe ☕️:
+   <a href="https://www.buymeacoffee.com/kristiyanvelkov" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-- <a href="https://www.buymeacoffee.com/kristiyanvelkov" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+2. Donate via Revolut QR code 💲:
 
-- Donate via Revolut QR code 💲:
-
-- ![Revolut](readme-images/kristiyan.velkov-revolut.png)
+   ![Revolut](readme-images/kristiyan.velkov-revolut.png)
 
 Thanks a bunch for supporting me❣️
 
