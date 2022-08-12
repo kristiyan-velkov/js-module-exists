@@ -7,11 +7,11 @@ import {
 /*
 I. ModuleExists() Method examples
     
-    Info: js-module-exists was installed previously.
+    Info: some-npm-package-name was installed previously.
     Expected output: true
 */
 
-if (moduleExists("js-module-exists")) {
+if (moduleExists("some-npm-package-name")) {
   //=> true
 } else {
   //=> false
@@ -21,16 +21,16 @@ if (moduleExists("js-module-exists")) {
     
 II. ModuleExistsWithText() Method examples
 
-    Info: js-module-exists was installed previously.
+    Info: some-npm-package-name was installed previously.
     Expected output: true 
  */
 
 // _Sample use without if block
-moduleExistsWithText("js-module-exists");
+moduleExistsWithText("some-npm-package-name");
 //=> Terminal output: Installed!
 
 // _Sample use with if block
-if (moduleExistsWithText("js-module-exists")) {
+if (moduleExistsWithText("some-npm-package-name")) {
   //=> true
   //=> Terminal output: Installed!
 } else {
@@ -40,7 +40,7 @@ if (moduleExistsWithText("js-module-exists")) {
 
 // _Use with options provided
 
-moduleExistsWithText("js-module-exists", {
+moduleExistsWithText("some-npm-package-name", {
   success: {
     color: "#ffffff", // string of terminal emulators supported hex color || defaultColors.success
     text: "Module exists!", // string
@@ -132,13 +132,13 @@ EXAMPLE OF THE MOST POPULAR TERMINAL COLORS:
 
 // _Change only the text of the success message
 /* 
-      IMPORTANT: 
+    IMPORTANT:
       All of the examples for success messages are relevant to the use of error messages. Will use the default hex color for success, error, info, and warn.
-If you want to change the color you need to add provided color property.
+      If you want to change the color you need to add provided color property.
   
   */
 
-moduleExistsWithText("js-module-exists", {
+moduleExistsWithText("some-npm-package-name", {
   success: {
     text: "Module exists!", // string
   },
@@ -151,7 +151,7 @@ moduleExistsWithText("js-module-exists", {
   */
 
 // _Change only the color of the success message
-moduleExistsWithText("js-module-exists", {
+moduleExistsWithText("some-npm-package-name", {
   success: {
     color: "#fff",
   },
@@ -168,7 +168,7 @@ moduleExistsWithText("js-module-exists", {
 
 /* To show info message the text is mandatory! For color will use the default one. */
 
-moduleExistsWithText("js-module-exists", {
+moduleExistsWithText("some-npm-package-name", {
   success: {
     color: "#DEADED",
     info: {
@@ -187,9 +187,9 @@ moduleExistsWithText("js-module-exists", {
 
 // _Add info and warn message
 
-/* To show info and warn message the text is mandatory! For color will use the default one. */
+/* To show info and warn messages the text is mandatory! For color will use the default one. */
 
-moduleExistsWithText("js-module-exists", {
+moduleExistsWithText("some-npm-package-name", {
   success: {
     color: "#000",
     text: "Module exists!",
@@ -240,7 +240,7 @@ setTextColors({
     warn: "#DEADED"
 */
 
-moduleExistsWithText("js-module-exists");
+moduleExistsWithText("some-npm-package-name");
 
 /* 
     //=> terminal success text color: #fff
@@ -260,7 +260,7 @@ setTextColors({
       sucess: "#fff"
   */
 
-moduleExistsWithText("js-module-exists", { success: { color: "#000" } });
+moduleExistsWithText("some-npm-package-name", { success: { color: "#000" } });
 
 /* 
       //=> Terminal success text color: #000

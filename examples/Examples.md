@@ -5,7 +5,7 @@
 ### ModuleExists() Method
 
 ```js
-if (moduleExists("js-module-exists")) {
+if (moduleExists("some-npm-package-name")) {
   //=> true
 } else {
   //=> false
@@ -19,14 +19,14 @@ if (moduleExists("js-module-exists")) {
 1. Sample use without if block
 
 ```js
-moduleExistsWithText("js-module-exists");
+moduleExistsWithText("some-npm-package-name");
 //=> Terminal output: Installed!
 ```
 
 2.  Sample use with if block
 
 ```js
-if (moduleExistsWithText("js-module-exists")) {
+if (moduleExistsWithText("some-npm-package-name")) {
   //=> true
   //=> Terminal output: Installed!
 } else {
@@ -38,7 +38,7 @@ if (moduleExistsWithText("js-module-exists")) {
 3. Use with options provided
 
 ```js
-moduleExistsWithText("js-module-exists", {
+moduleExistsWithText("some-npm-package-name", {
   success: {
     color: "#ffffff", // string of terminal emulators supported hex color || defaultColors.success
     text: "Module exists!", // string
@@ -136,7 +136,7 @@ All of the examples for success messages are relevant to the use of error messag
 If you want to change the color you need to add provided color property.
 
 ```js
-moduleExistsWithText("js-module-exists", {
+moduleExistsWithText("some-npm-package-name", {
   success: {
     text: "Module exists!", // string
   },
@@ -151,7 +151,7 @@ moduleExistsWithText("js-module-exists", {
 5. Change only the color of the success message
 
 ```js
-moduleExistsWithText("js-module-exists", {
+moduleExistsWithText("some-npm-package-name", {
   success: {
     color: "#fff",
   },
@@ -165,10 +165,10 @@ moduleExistsWithText("js-module-exists", {
 
 6. Add info message
 
-**Important** To show info message the text property is mandatory! For the color will use default one.
+**Important** To show info message the text property is mandatory! For the color will use the default one.
 
 ```js
-moduleExistsWithText("js-module-exists", {
+moduleExistsWithText("some-npm-package-name", {
   success: {
     color: "#DEADED",
     info: {
@@ -178,19 +178,19 @@ moduleExistsWithText("js-module-exists", {
 });
 
 
-//=> terminal success text color: #DEADED
+//=> Terminal success text color: #DEADED
 //=> Terminal output:
 
     ✔ Installed!
-    ℹ Some info text!
+    ℹ  Some info text!
 ```
 
-7. Add info and warn message
+7. Added info and warning messages
 
-To show info and warn message the text is mandatory! For the color will use default one.
+To show info and warn messages the text is mandatory! For the color will use default one.
 
 ```js
-moduleExistsWithText("js-module-exists", {
+moduleExistsWithText("some-npm-package-name", {
   success: {
     color: "#000",
     text: "Module exists!",
@@ -210,14 +210,14 @@ moduleExistsWithText("js-module-exists", {
 
     ✔ Module exists!
     ⚠ Some warning text.
-    ℹ Some info text!
+    ℹ  Some info text!
 ```
 
 ### setTextColors() Method
 
 **Info**: Used only with moduleExistsWithText() method to change default colors.
 
-**Expected result**: Set the default colors for success, error, info, warn.
+**Expected result**: Set the default colors for success, error, info, and warn.
 
 **Option**: Can change only for specific text output( example success) the rest will be by default colors.
 
@@ -241,7 +241,7 @@ setTextColors({
 // info: "#00cafc"
 // warn: "#DEADED"
 
-moduleExistsWithText("js-module-exists");
+moduleExistsWithText("some-npm-package-name");
 
 //=> terminal success text color: #fff
 //=> Terminal output:
@@ -250,7 +250,7 @@ moduleExistsWithText("js-module-exists");
 
 ```
 
-2. Example of use with option color change in moduleExistsWithText() method
+2. Example of use with option color change in moduleExistsWithText() method.
 
 ```js
 setTextColors({
@@ -265,7 +265,7 @@ setTextColors({
 // Default colors was changed to:
 // sucess: "#fff"
 
-moduleExistsWithText("js-module-exists", {
+moduleExistsWithText("some-npm-package-name", {
   success: {
     color: "#000",
   },

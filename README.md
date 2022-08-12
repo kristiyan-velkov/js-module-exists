@@ -2,22 +2,20 @@
 
 [![Follow me](https://img.shields.io/badge/sponsors-99+-orange.svg)](https://github.com/christiyan14) [![Sponsors](https://img.shields.io/badge/Follow-150-blue?logo=github&style=social.svg)](https://github.com/christiyan14) [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/) [![Node Version](https://img.shields.io/badge/node-%3E%3D%2016.16.0-brightgreen.svg)](https://nodejs.org/en/)
 
-Checks if an es module/ npm package exists in the project.
+![JS-MODULE_EXISTS](readme-images/logo.png)
 
-![Example](assets/images/module-exists.gif)
+**Checks if an es module/ npm package exists and returns a boolean value.**
+**Also you can provide a nice terminal message which can be customized as you like.**
 
 ## Table of contents
 
 - [Installation 🦾](#installation)
 - [How to Use? 💻](#how-to-use)
+- [Examples 🚀](#examples)
 - [Developer Support 🔗 ](#developer-support)
 - [Support my work ❤️ ](#buy-me-a-coffee)
 
 ---
-
-## Documentation
-
-- Simple check which will return boolean value if the module exist or not.
 
 ## Installation
 
@@ -39,20 +37,15 @@ yarn add js-module-exists -D
 
 #### API
 
-| Method                     | Usage                                                                                                                                 |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **moduleExists()**         | Easy to use method which will return boolean value after check the module/ npm package / file exists. Can be used to simple checks.   |
-| **moduleExistsWithText()** | Will return boolean value if the module/ package exists. Also will provide nice terminal message which can be cusstimize as you like. |
-| **setTextColors()**        | Set default text colors for success, erorr, warn and info messages. **Used only with moduleExistsWithText() method.**                 |
+| Method                     | Usage                                                                                                                                     |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **moduleExists()**         | Еasy to use a method that will return a boolean value after checking the module/ npm package.                                             |
+| **moduleExistsWithText()** | Will return a boolean value if the module/ package exists. Also will provide a nice terminal message which can be customized as you like. |
+| **setTextColors()**        | Sets default text colors for success, error, warn, and info messages. **Used only with moduleExistsWithText() method.**                   |
 
 1. **moduleExists() method**
 
-Accepts string argument and return boolean value.
-moduleExists("some-npm-package-name") | return bolean true or false.
-
-| Properties | Description              | Return value |
-| ---------- | ------------------------ | ------------ |
-| moduleName | module, npm package name | boolean      |
+- Accepts string and returns a boolean value.
 
 ```js
 import { moduleExists } from "js-module-exists";
@@ -66,15 +59,12 @@ if (moduleExists("some-npm-package-name")) {
 
 2. **moduleExistsWithText() method**
 
-   - **Info:** Easy to use fully custamizable method for checking if the the module/npm package/ file exist.Comming with default terminal response. The message in the console (color, text ) can be changed to whatever value you want.
-     This method is fully customizable to your preferencess.
+   - **Info:** Easy to use fully customizable method for checking if the module/npm package exists. Coming with default terminal response. The message in the console (color, text ) can be changed to whatever value you want.
 
-   More info in examples bellow:
-
-| Properties | Description                  | Return value |
-| ---------- | ---------------------------- | ------------ |
-| moduleName | module, npm package name     | boolean      |
-| options    | Custamize terminal response. | object       |
+| Properties | Description                     | Return value |
+| ---------- | ------------------------------- | ------------ |
+| moduleName | module, npm package name        | boolean      |
+| options    | Custamizable terminal response. | object       |
 
 ```js
 import { moduleExistsWithText } from "js-module-exists";
@@ -82,25 +72,37 @@ import { moduleExistsWithText } from "js-module-exists";
 moduleExistsWithText("some-npm-package-name");
 ```
 
-- **Example of usages**:
+![JS-MODULE_EXISTS](readme-images/1.png)
 
-  - default
+- with options
 
-  ```js
-  import { moduleExistsWithText } from "js-module-exists";
+```js
+import { moduleExistsWithText } from "js-module-exists";
 
-  moduleExistsWithText("some-npm-package-name");
-  ```
+moduleExistsWithText("some-npm-package-name", {
+  success: {
+    text: "Module exists!",
+    warn: {
+      text: "Don't forget to support my work!",
+    },
+    info: {
+      text: `Information
+      name: js-module-exists
+      author: Krisityan Velkov`,
+    },
+  },
+});
+```
 
-  - Customization
+![JS-MODULE_EXISTS](readme-images/3.png)
 
-  ```js
-  import { moduleExistsWithText } from "js-module-exists";
+## Examples:
 
-  moduleExistsWithText("some-npm-package-name");
-  ```
+Full lists of examples how to use **js-module-exists** whit all supported options:
 
-  **Return:**
+- [Readme file](https://github.com/christiyan14/js-module-exists/blob/main/examples/Examples.md)
+
+- [JS file](https://github.com/christiyan14/js-module-exists/blob/main/examples/example.js)
 
 ## Developer Support:
 
@@ -109,9 +111,9 @@ moduleExistsWithText("some-npm-package-name");
 
 Please, contact the creator of the **js-module-exists**, so he will be able to fix or improve it:
 
-**Christiyan Velkov**
+**Kristiyan Velkov**
 
-**Email:** christiyan.velkov@gmail.com
+**Email:** christiyanweb@gmail.com
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kristiyan-velkov-763130b3/)
 
@@ -128,14 +130,10 @@ If you like my work, please :
 
 - Donate via Revolut QR code 💲:
 
-- ![Revolut](assets/images/kristiyan.velkov-revolut.png)
+- ![Revolut](readme-images/kristiyan.velkov-revolut.png)
 
 Thanks a bunch for supporting me❣️
 
 ---
 
 Copyright ©️2022. All rights reserved.
-
-```
-
-```
