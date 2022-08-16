@@ -7,7 +7,7 @@ let defaultColors;
 
 export const setTextColors = (colors) => {
   defaultColors = {
-    success: colors?.sucess || "#008000",
+    success: colors?.success || "#008000",
     error: colors?.error || "#DC143C",
     warn: colors?.warn || "#FFD700",
     info: colors?.info || "#00FFFF",

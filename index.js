@@ -1,5 +1,5 @@
-export { moduleExists } from "./scr/js/module-exists.js";
+export { moduleExists } from "./src/js/module-exists.js";
 export {
   moduleExistsWithText,
   setTextColors,
-} from "./scr/js/module-exists-with-text.js";
+} from "./src/js/module-exists-with-text.js";
