@@ -98,7 +98,7 @@ moduleExistsWithText("some-npm-package-name", {
   },
 });
 ```
-<img src="scr\assets\images\2.png"  alt="js-module-exists"/>
+<img src="src\assets\images\2.png"  alt="js-module-exists"/>
 
 ## Examples:
 
@@ -129,9 +129,10 @@ If you like my work and want to support me to work hard, please donate via:
 
 
 
- <a href="https://revolut.me/kristiyanvelkov" title="Link to Revolut">Revolut</a>  | <a href="https://www.buymeacoffee.com/kristiyanVelkov" title="Link to Buy me a cofee">Buy me a cofee</a>                |
-| :------: | :------: | :-------------------------------: | 
-<a href="https://revolut.me/kristiyanvelkov" target="_blank"><img src="src\assets\images\/kristiyan.velkov-revolut.png" width="200px"  alt="Krisityan Velkov - Revolut"/></a>|<a href="https://www.buymeacoffee.com/kristiyanVelkov" style="background:red,height='500px'"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=kristiyanVelkov&button_colour=000000&font_colour=ffffff&font_family=Lato&outline_colour=ffffff&coffee_colour=FFDD00" width="200px"/></a>
+|  <a href="https://revolut.me/kristiyanvelkov" title="Link to Revolut">Revolut</a>            | <a href="https://www.buymeacoffee.com/kristiyanVelkov" title="Link to Buy me a coffee">Buy me a coffee</a>  |
+| ----------------- | ------------------------------------------------------------------ |
+| <a href="https://revolut.me/kristiyanvelkov" target="_blank"><img src="/src/assets/images/kristiyan.velkov-revolut.png" width="200px"  alt="Krisityan Velkov - Revolut"/></a> | <a href="https://www.buymeacoffee.com/kristiyanVelkov" style="background:red,height='500px'"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=kristiyanVelkov&button_colour=000000&font_colour=ffffff&font_family=Lato&outline_colour=ffffff&coffee_colour=FFDD00" width="200px"/></a> |
+
 
 
 
