@@ -1,12 +1,13 @@
 <a href="https://www.linkedin.com/in/kristiyan-velkov-763130b3/" target="_blank">
-    <img src="scr\assets\images\morewell-logo.png" alt="Morewell logo" title="Morewell" align="right" />
+    <img src="src\assets\images\morewell-logo.png" alt="Morewell logo" title="Morewell" align="right" />
 </a>
 
 # js-module-exists
 
 [![Follow me](https://img.shields.io/badge/sponsors-99+-orange.svg)](https://github.com/christiyan14) [![Sponsors](https://img.shields.io/badge/Follow-150-blue?logo=github&style=social.svg)](https://github.com/christiyan14) [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/) [![Node Version](https://img.shields.io/badge/node-%3E%3D%2016.16.0-brightgreen.svg)](https://nodejs.org/en/)
 
-<img src="scr\assets\images\logo.png"  alt="js-module-exists-logo"/>
+
+<img src="src\assets\images\logo.png"  alt="js-module-exists-logo"/>
 
 **Checks if an es module/ npm package exists and returns a boolean value.**
 **Also you can provide a nice terminal message which can be customized as you like.**
@@ -65,7 +66,7 @@ if (moduleExists("some-npm-package-name")) {
 
    - **Info:** Easy to use fully customizable method for checking if the module/npm package exists. Coming with default terminal response. The message in the console (color, text ) can be changed to whatever value you want.
 
-| Properties | Description                     | Return value |
+| Properties | Desrciption                     | Return value |
 | ---------- | ------------------------------- | ------------ |
 | moduleName | module, npm package name        | boolean      |
 | options    | Custamizable terminal response. | object       |
@@ -75,7 +76,8 @@ import { moduleExistsWithText } from "js-module-exists";
 
 moduleExistsWithText("some-npm-package-name");
 ```
-<img src="scr\assets\images\1.png"  alt="js-module-exists"/>
+
+<img src="src\assets\images\1.png"  alt="js-module-exists"/>
 
 - with options
 
@@ -97,7 +99,6 @@ moduleExistsWithText("some-npm-package-name", {
 });
 ```
 <img src="scr\assets\images\2.png"  alt="js-module-exists"/>
-
 
 ## Examples:
 
@@ -127,10 +128,10 @@ Please, contact the creator of the **js-module-exists**, so he will be able to f
 If you like my work and want to support me to work hard, please donate via:
 
 
-|  <a href="https://revolut.me/kristiyanvelkov" title="Link to Revolut">Revolut</a>            | <a href="https://www.buymeacoffee.com/kristiyanVelkov" title="Link to Buy me a cofee">Buy me a cofee</a>  |
-| ----------------- | ------------------------------------------------------------------ |
-| <a href="https://revolut.me/kristiyanvelkov" target="_blank"><img src="scr\assets\images\kristiyan.velkov-revolut.png" width="200px"  alt="Krisityan Velkov - Revolut"/></a> | <a href="https://www.buymeacoffee.com/kristiyanVelkov" style="background:red,height='500px'"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=kristiyanVelkov&button_colour=000000&font_colour=ffffff&font_family=Lato&outline_colour=ffffff&coffee_colour=FFDD00" width="200px"/></a> |
 
+ <a href="https://revolut.me/kristiyanvelkov" title="Link to Revolut">Revolut</a>  | <a href="https://www.buymeacoffee.com/kristiyanVelkov" title="Link to Buy me a cofee">Buy me a cofee</a>                |
+| :------: | :------: | :-------------------------------: | 
+<a href="https://revolut.me/kristiyanvelkov" target="_blank"><img src="src\assets\images\/kristiyan.velkov-revolut.png" width="200px"  alt="Krisityan Velkov - Revolut"/></a>|<a href="https://www.buymeacoffee.com/kristiyanVelkov" style="background:red,height='500px'"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=kristiyanVelkov&button_colour=000000&font_colour=ffffff&font_family=Lato&outline_colour=ffffff&coffee_colour=FFDD00" width="200px"/></a>
 
 
 
