@@ -1,17 +1,19 @@
 "use strict";
-import { createRequire } from "module";
-
-const require = createRequire(import.meta.url);
+import path from "path";
+import fs from "fs";
 
 export const moduleExists = (moduleName) => {
-  try {
-    require.resolve(moduleName);
-    return true;
-  } catch (err) {
-    if (err.code === "MODULE_NOT_FOUND") {
-      return false;
-    }
+  const packageFilePath = path.dirname("");
+  const data = fs.readFileSync(`${packageFilePath}/package.json`, "utf8");
+  let result;
+
+  if (data.includes(moduleName)) {
+    result = true;
+  } else {
+    result = false;
   }
+
+  return result;
 };
 
 export default moduleExists;
