@@ -4,7 +4,7 @@ import fs from "fs";
 
 export const moduleExists = (moduleName) => {
   const packageFilePath = path.dirname("");
-  const data = readFileSync(`${packageFilePath}/package.json`, "utf8");
+  const data = fs.readFileSync(`${packageFilePath}/package.json`, "utf8");
   let dependenciesList = [];
 
   if (data) {
