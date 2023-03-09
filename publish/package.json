@@ -1,6 +1,6 @@
 {
   "name": "js-module-exists",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Checks if a node module or file exists or not in the repository.",
   "main": "index.js",
   "scripts": {

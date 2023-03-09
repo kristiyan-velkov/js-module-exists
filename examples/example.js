@@ -1,8 +1,4 @@
-import {
-  moduleExists,
-  moduleExistsWithText,
-  setTextColors,
-} from "js-module-exists";
+import { moduleExists } from "js-module-exists";
 
 /*
 I. ModuleExists() Method examples

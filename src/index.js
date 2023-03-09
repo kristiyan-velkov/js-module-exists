@@ -1,12 +1,5 @@
-import moduleExists from "./js/module-exists.js";
-export { moduleExists } from "./js/module-exists.js";
+import { dependencyExists, dependencyExistsWithText } from "dependency-exists";
 export {
-  moduleExistsWithText,
-  setTextColors,
-} from "./js/module-exists-with-text.js";
-
-if (moduleExists("@gfk/style")) {
-  console.log(true);
-} else {
-  console.log(false);
-}
+  dependencyExists as moduleExists,
+  dependencyExistsWithText as moduleExistsWithText,
+};
