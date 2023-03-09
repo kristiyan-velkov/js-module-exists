@@ -1,14 +1,16 @@
 <a href="https://www.linkedin.com/in/kristiyan-velkov-763130b3/" target="_blank">
-    <img src="src\assets\images\morewell-logo.png" alt="Morewell logo" title="Morewell" align="right" />
+    <img src="https://drive.google.com/uc?export=view&id=1CaHw3OczzvfSAnF2FeU9HH3EruqRDT0q" alt="Morewell logo" title="Morewell" align="right" />
 </a>
 
 # js-module-exists
 
 [![Follow me](https://img.shields.io/badge/sponsors-99+-orange.svg)](https://github.com/christiyan14) [![Sponsors](https://img.shields.io/badge/Follow-150-blue?logo=github&style=social.svg)](https://github.com/christiyan14) [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/) [![Node Version](https://img.shields.io/badge/node-%3E%3D%2016.16.0-brightgreen.svg)](https://nodejs.org/en/)
 
-<img src="src\assets\images\logo.png"  alt="js-module-exists-logo"/>
+<a href="https://www.linkedin.com/in/kristiyan-velkov-763130b3/" target="_blank">
+    <img src="https://drive.google.com/uc?export=view&id=1PMpM-8vW8hrKI8AA0duhF1WzreiFXsqG"  alt="js-module-exists-logo"/>
+</a>
 
-**Checks if an es module/ npm package exists in package.json and returns a boolean value.**
+**Checks if an es module/ npm package exists in package.json file and returns a boolean value.**
 
 ## Table of contents
 
@@ -77,12 +79,12 @@ Please, contact the creator of the **js-module-exists**, so he will be able to f
 
 If you like my work and want to support me to work hard, please donate via:
 
-| <a href="https://revolut.me/kristiyanvelkov" title="Link to Revolut">Revolut</a>                                                                                              | <a href="https://www.buymeacoffee.com/kristiyanVelkov" title="Link to Buy me a coffee">Buy me a coffee</a>                                                                                                                                                                                                                  |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a href="https://revolut.me/kristiyanvelkov" target="_blank"><img src="/src/assets/images/kristiyan.velkov-revolut.png" width="200px"  alt="Krisityan Velkov - Revolut"/></a> | <a href="https://www.buymeacoffee.com/kristiyanVelkov" style="background:red,height='500px'"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=kristiyanVelkov&button_colour=000000&font_colour=ffffff&font_family=Lato&outline_colour=ffffff&coffee_colour=FFDD00" width="200px"/></a> |
+| <a href="https://revolut.me/kristiyanvelkov" title="Link to Revolut">Revolut</a>                                                                                                                           | <a href="https://www.buymeacoffee.com/kristiyanVelkov" title="Link to Buy me a coffee">Buy me a coffee</a>                                                                                                                                                                                                                  |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a href="https://revolut.me/kristiyanvelkov" target="_blank"><img src="https://drive.google.com/uc?export=view&id=1W9nlJfo6kTpf-nwCzo-8vJWqq7yW-9oB" width="200px"  alt="Krisityan Velkov - Revolut"/></a> | <a href="https://www.buymeacoffee.com/kristiyanVelkov" style="background:red,height='500px'"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=kristiyanVelkov&button_colour=000000&font_colour=ffffff&font_family=Lato&outline_colour=ffffff&coffee_colour=FFDD00" width="200px"/></a> |
 
 Thanks a bunch for supporting me! It means a LOT 😍
 
 ---
 
-Copyright ©️2022. All rights reserved.
+Copyright ©️2023. All rights reserved.
