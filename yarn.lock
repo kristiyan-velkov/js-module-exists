@@ -7,10 +7,10 @@ chalk@^5.2.0:
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.2.0.tgz#249623b7d66869c673699fb66d65723e54dfcfb3"
   integrity sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==
 
-dependency-exists@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/dependency-exists/-/dependency-exists-1.0.4.tgz#c50dff3f8d7379e59456c26368b308062871c5cc"
-  integrity sha512-NvrtZ2cLDZtlUYH8mv8WonikXDC2dooPotNqlPK23Lazlho1Tb91MfPoFgHlgtg6SiBHRj7dskCxtzOX2A28Eg==
+dependency-exists@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/dependency-exists/-/dependency-exists-1.0.5.tgz#65d9c4b8cf88c75086421312b6a5122b88202a79"
+  integrity sha512-2RuatLvBpOk7ilBaG0UjyvataU92Ah4M7A94/dY2FXEHPMITM10XzP10QHdKQltxGwnycBJPLGLVF2oS4yye8w==
   dependencies:
     chalk "^5.2.0"
     path "^0.12.7"

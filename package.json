@@ -1,14 +1,14 @@
 {
   "name": "js-module-exists",
-  "version": "1.0.8",
+  "version": "1.0.11",
   "type": "module",
   "description": "Checks if a node module or file exists or not in the repository.",
-  "main": "src/index.js",
   "author": {
     "name": "Krisityan Velkov",
     "email": "christiyanweb@gmail.com",
     "url": "https://www.linkedin.com/in/kristiyan-velkov-763130b3/"
   },
+  "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "dependency-exists": "^1.0.4"
+    "dependency-exists": "^1.0.5"
   },
   "keywords": [
     "npm package",
