@@ -1,6 +1,6 @@
 {
   "name": "js-module-exists",
-  "version": "1.0.8",
+  "version": "1.0.13",
   "type": "module",
   "description": "Checks if a node module or file exists or not in the repository.",
   "main": "src/index.js",
@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christiyan14/js-module-exists.git"
+    "url": "git+https://github.com/kristiyan-velkov/js-module-exists.git"
   },
-  "homepage": "https://github.com/christiyan14/js-module-exists#readme",
+  "homepage": "https://github.com/kristiyan-velkov/js-module-exists#readme",
   "bugs": {
-    "url": "https://github.com/christiyan14/js-module-exists/issues"
+    "url": "https://github.com/kristiyan-velkov/js-module-exists/issues"
   },
   "license": "MIT",
   "dependencies": {
-    "dependency-exists": "^1.0.4"
+    "dependency-exists": "^1.0.7"
   },
   "keywords": [
     "npm package",
@@ -36,6 +36,8 @@
     "TypeScript",
     "ECMAscript",
     "Node",
-    "JS"
+    "JS",
+    "check npm dependency",
+    "dependency exists"
   ]
 }

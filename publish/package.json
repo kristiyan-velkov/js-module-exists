@@ -1,43 +1,43 @@
 {
   "name": "js-module-exists",
-  "version": "1.0.8",
+  "version": "1.0.12",
+  "type": "module",
   "description": "Checks if a node module or file exists or not in the repository.",
-  "main": "index.js",
+  "main": "src/index.js",
+  "author": {
+    "name": "Krisityan Velkov",
+    "email": "christiyanweb@gmail.com",
+    "url": "https://www.linkedin.com/in/kristiyan-velkov-763130b3/"
+  },
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christiyan14/js-module-exists.git"
+    "url": "git+https://github.com/kristiyan-velkov/js-module-exists.git"
   },
-  "type": "module",
+  "homepage": "https://github.com/kristiyan-velkov/js-module-exists#readme",
+  "bugs": {
+    "url": "https://github.com/kristiyan-velkov/js-module-exists/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dependency-exists": "^1.0.7"
+  },
   "keywords": [
-    "module",
-    "ECMAscript",
+    "npm package",
+    "dependencies",
+    "devDependencies",
+    "peerDependencies",
+    "package.json",
     "ES6",
     "JavaScript",
-    "Modules",
-    "Module",
-    "ES6",
-    "module",
-    "JavaScipt",
-    "Modules",
     "TypeScript",
     "ECMAscript",
-    "Modules",
     "Node",
-    "JS"
-  ],
-  "author": "Kristiyan Velkov",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/christiyan14/js-module-exists/issues"
-  },
-  "homepage": "https://github.com/christiyan14/js-module-exists#readme",
-  "dependencies": {
-    "chalk": "^5.0.1",
-    "ora": "^6.1.2",
-    "path": "^0.12.7"
-  }
+    "JS",
+    "check npm dependency",
+    "dependency exists"
+  ]
 }
